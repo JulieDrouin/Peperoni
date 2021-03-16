@@ -13,14 +13,14 @@ const Menus = () => {
                 <Card text="dark">
                     <Card.Img variant="top" src={solo} height="160px" width="160px" alt="Menu Solo"/>
                     <Card.Body>
-                    <Card.Title style={{ fontFamily: "Syne Mono" }}>Menu solo</Card.Title>
+                    <Card.Title style={{ fontFamily: "Syne Mono" }}>Menu Solo</Card.Title>
                     <Card.Text style={{ fontSize: "1rem"}}>
                         Le menu complet pour se faire plaisir.
                         Choissisez 1 Pizzas, 1 petites boissons, et 1 dessert!
                     </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Button variant="outline-danger" size="sm" href="/menus" style={{ fontFamily: "Syne Mono" }}>Commander</Button>
+                        <Button variant="outline-danger" size="sm" href="/panier" style={{ fontFamily: "Syne Mono" }}>Commander</Button>
                     </Card.Body>
                 </Card>
                 <Card text="dark">
@@ -33,7 +33,7 @@ const Menus = () => {
                     </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Button variant="outline-danger" size="sm" href="/menus" style={{ fontFamily: "Syne Mono" }}>Commander</Button>
+                        <Button variant="outline-danger" size="sm" href="/panier" style={{ fontFamily: "Syne Mono" }}>Commander</Button>
                     </Card.Body>
                 </Card>
                 <Card text="dark">
@@ -46,7 +46,7 @@ const Menus = () => {
                     </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Button variant="outline-danger" size="sm" href="/menus" style={{ fontFamily: "Syne Mono" }}>Commander</Button>
+                        <Button variant="outline-danger" size="sm" href="/panier" style={{ fontFamily: "Syne Mono" }}>Commander</Button>
                     </Card.Body>
                 </Card>
             </CardDeck>
